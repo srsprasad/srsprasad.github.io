@@ -24,6 +24,15 @@
     {"name": "(5yrs) Fine Art/Commertial Art Diploma"},
     {"name": "(2yrs) Art Teacher Diploma"},
     {"name": "(2yrs) ITI"},
-    {"name": "Railway Ticket Collector/Commerce Clerk Exam"}
+    {"name": "Railway Ticket Collector/Commerce Clerk Exam"},
+    {"name": "Bank/Insurance Clarical Exam"},
+    {"name": "Other Govt. Clarical Grade Exam",
+     "children": [{"name": "Govt.Clerk"}]
+    },
+    {"name": "(2yrs) Diploma in Dance/Music"},
+    {"name": "(6m-1yr) Certified Building Supervisor"},
+    {"name": "(6m-1yr) Diploma in Form Management (Animal Husbandry)"},
+    {"name": "(2yrs) Medical Lab Technical Certificate Course (MLT)"},
+    {"name": "(2-3yrs) Diploma Courses (Int Design, Stenography)"}
   ]
 }

@@ -14,6 +14,16 @@
         {"name": "(3yrs) R T O"},
         {"name": "(3yrs) Merchant Navy"}
       ]
-    }
+    },
+    { "name": "L.I.C Agen"},
+    { "name": "Army/Nevy/Airforce(Defence)/Police Exam",
+      "children":[
+        {"name":"Police Constable/Airmen/Navik Soldier"}
+      ]
+    },
+    {"name": "(5yrs) Fine Art/Commertial Art Diploma"},
+    {"name": "(2yrs) Art Teacher Diploma"},
+    {"name": "(2yrs) ITI"},
+    {"name": "Railway Ticket Collector/Commerce Clerk Exam"}
   ]
 }

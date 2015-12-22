@@ -1,0 +1,19 @@
+{
+  "name":"10th Class",
+  "children": [
+    {
+      "name": "Eng Diploma",
+      "children":[
+        {"name": "(3yrs) Govt Contractor (Civil/Eng)"},
+        {"name": "(3yrs) Degree Eng B.E"},
+        {"name": "(3yrs) AMIE/IETE",
+         "children":[
+           {"name": "MPSC/UPSC (Exam)"}
+         ]
+        },
+        {"name": "(3yrs) R T O"},
+        {"name": "(3yrs) Merchant Navy"}
+      ]
+    }
+  ]
+}

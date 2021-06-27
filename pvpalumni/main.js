@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	    min: 0,
 	    title: {
 	      text: 'Registrations (count)'
+	    },
+	    labels:{
+	    	overflow: 'justify'
 	    }
 	  },
 	  tooltip: {

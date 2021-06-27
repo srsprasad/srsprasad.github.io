@@ -4,28 +4,10 @@ function axiosGet() {
 	return request.then((response) => {return response.data});	
 	 
 }
-	
-var columnDefs = [
-  {headerName: "Region Name", field: "groupShortName"},
-  {headerName: "Schools Count", field: "schoolsCount"},
-  {headerName: "Students Registered", field: "totalRegistredStudents"}
-];
-
-// specify the data
-var rowData;
-// let the grid know which columns and what data to use
-var gridOptions = {
-  columnDefs: columnDefs,
-  rowData: rowData
-};
 
 // setup the grid after the page has finished loading
 document.addEventListener('DOMContentLoaded', function() {
-    //var gridDiv = document.querySelector('#myGrid');
     axiosGet().then(data=> {
-		/*gridOptions.rowData = data.groupChoiceData;
-    	console.log("Selection Data: ", gridOptions.rowData);    	    	
-    	new agGrid.Grid(gridDiv, gridOptions);*/    	
     console.log("Graph Data: ", data.bartChartData);	
     var graphDiv = Highcharts.chart('container', {
 	  chart: {
@@ -56,6 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	    useHTML: true
 	  },
 	  plotOptions: {
+	    bar:{
+		dataLabels:{
+		    enabled:true
+		}
+	    },
 	    column: {
 	      pointPadding: 0.2,
 	      borderWidth: 0

@@ -1,6 +1,6 @@
 // specify the data
 function axiosGet() {
-	const request = axios.get("http://ec2-13-126-79-110.ap-south-1.compute.amazonaws.com:8080/alumni/true/true/SAN,KHA,WAR,ASF,WNP,kAR,GAD,MED,PED,SID,JAG,NGK,KAM,NIR,JAN,NAL,VIK,PAL,BHA,MAN,KAR,NAR,RAN,NIZ,ADB");
+	const request = axios.get("http://ec2-65-1-20-88.ap-south-1.compute.amazonaws.com:8080/alumni/true/true/SAN,KHA,WAR,ASF,WNP,kAR,GAD,MED,PED,SID,JAG,NGK,KAM,NIR,JAN,NAL,VIK,PAL,BHA,MAN,KAR,NAR,RAN,NIZ,ADB");
 	return request.then((response) => {return response.data});	
 	 
 }
